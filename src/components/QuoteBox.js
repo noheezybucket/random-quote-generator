@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import twitter from "../assets/twitter.png";
 import tumblr from "../assets/tumblr.png";
+import quote_left from "../assets/quote.png";
 
 import quotes from "../data/quotes";
 
@@ -18,7 +19,10 @@ const QuoteBox = () => {
 
   return (
     <div id="quote-box">
-      <div id="text">{quotes[quote].quote}</div>
+      <div id="text">
+        <img src={quote_left} id="quote-left" alt="quote" />{" "}
+        {quotes[quote].quote}
+      </div>
       <div id="author">- {quotes[quote].author}</div>
       <div className="flex-box">
         <div className="share-box">

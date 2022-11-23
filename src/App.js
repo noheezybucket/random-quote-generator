@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <QuoteBox />
-      <p id="credit">by hesi</p>
+      <p id="credit">coded by koda_</p>
     </div>
   );
 }

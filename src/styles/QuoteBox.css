@@ -4,16 +4,16 @@
   font-family: "Karla";
 }
 
-#credit {
-  text-align: center;
-  margin-top: 10px;
-}
-
 #quote-box {
   border: 1px solid black;
   max-width: 400px;
   padding: 20px;
   border-radius: 0.2em;
+  background-color: white;
+}
+
+#quote-left {
+  width: 20px;
 }
 
 #text {
@@ -66,4 +66,9 @@ button {
   background-color: transparent;
   cursor: pointer;
   font-weight: 400;
+}
+#credit {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
 }
