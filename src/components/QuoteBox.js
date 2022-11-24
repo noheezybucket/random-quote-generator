@@ -51,7 +51,7 @@ const QuoteBox = () => {
           <img
             src={quote_left}
             style={{
-              color: `${color}`,
+              fill: `${color}`,
               transition: "0.4s ease-in-out",
             }}
             id="quote-left"

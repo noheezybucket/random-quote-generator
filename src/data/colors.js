@@ -8,6 +8,7 @@ const colors = [
   "0E5E6F",
   "3A8891",
   "FF8787",
+  "628E90",
 ];
 
 export default colors;
