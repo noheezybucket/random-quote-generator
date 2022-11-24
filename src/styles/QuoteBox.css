@@ -22,10 +22,6 @@
   }
 }
 
-#quote-left {
-  width: 25px;
-}
-
 #text {
   text-align: center;
   font-size: 2em;
@@ -40,7 +36,7 @@
   font-size: 1.2em;
 }
 
-#tweet-quote {
+.share-quote {
   padding: 4px;
   border-radius: 0.2em;
 }
