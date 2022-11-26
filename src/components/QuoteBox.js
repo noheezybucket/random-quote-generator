@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import twitter from "../assets/twitter.png";
 import tumblr from "../assets/tumblr.png";
-import quote_left from "../assets/quote.svg";
 
 import quotes from "../data/quotes";
 import colors from "../data/colors";
@@ -36,7 +35,7 @@ const QuoteBox = () => {
         justifyContent: "center",
         alignItems: "center",
         backgroundColor: `${color}`,
-        overflow: "hidden",
+        // overflow: "hidden",
         transition: "0.4s ease-in-out",
       }}
     >
@@ -125,6 +124,7 @@ const QuoteBox = () => {
           </button>
         </div>
       </div>
+      <p style={{ color: "white", marginTop: "10px" }}>coded by koda_</p>
     </div>
   );
 };

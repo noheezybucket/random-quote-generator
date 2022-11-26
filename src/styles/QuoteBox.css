@@ -22,11 +22,22 @@
   }
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 #text {
   text-align: center;
   font-size: 2em;
   max-width: 500px;
   font-weight: 500;
+  transition: fadeIn 0.4s;
 }
 
 #author {

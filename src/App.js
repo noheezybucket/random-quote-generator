@@ -4,7 +4,6 @@ function App() {
   return (
     <div>
       <QuoteBox />
-      <p id="credit">coded by koda_</p>
     </div>
   );
 }
